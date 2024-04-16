@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user.DESKTOP-DJG3P0G\\Desktop\\TestProject1\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\user.DESKTOP-DJG3P0G\\Documents\\GitHub\\2lab\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user.DESKTOP-DJG3P0G\\Desktop\\TestProject1\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\user.DESKTOP-DJG3P0G\\Documents\\GitHub\\2lab\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user.DESKTOP-DJG3P0G\\Desktop\\TestProject1\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\user.DESKTOP-DJG3P0G\\Documents\\GitHub\\2lab\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\user.DESKTOP-DJG3P0G\\Desktop\\TestProject1\\TestProject1\\TestProject1.csproj",
+        "projectPath": "C:\\Users\\user.DESKTOP-DJG3P0G\\Documents\\GitHub\\2lab\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\user.DESKTOP-DJG3P0G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user.DESKTOP-DJG3P0G\\Desktop\\TestProject1\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\user.DESKTOP-DJG3P0G\\Documents\\GitHub\\2lab\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user.DESKTOP-DJG3P0G\\AppData\\Roaming\\NuGet\\NuGet.Config",
