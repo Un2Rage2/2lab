@@ -23,6 +23,3 @@ jobs:
       
     - name: Test
       run: dotnet test
-
-    - name: Install NUnit
-      run: dotnet add package NUnit --version 4.1.0
