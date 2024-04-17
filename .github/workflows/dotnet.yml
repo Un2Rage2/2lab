@@ -16,8 +16,10 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       
-    - name: Build
-      run: dotnet build
+    - name: Change directory and build
+      run: |
+        cd TestProject1
+        dotnet build
       
     - name: Test
       run: dotnet test
