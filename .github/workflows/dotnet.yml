@@ -3,14 +3,21 @@ name: CI
 on: [push]
 
 jobs:
-  my_build_job:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up .NET
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '3.1.x'
-      - name: Build
-        run: dotnet build --configuration Release
-        working-directory: TestProject1.csproj
+    - uses: actions/checkout@v2
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '17.5.0'
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build
+      
+    - name: Test
+      run: dotnet test
