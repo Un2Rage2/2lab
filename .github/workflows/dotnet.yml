@@ -13,4 +13,4 @@ jobs:
           dotnet-version: '3.1.x'
       - name: Build
         run: dotnet build --configuration Release
-        working-directory: 2lab/TestProject1/TestProject1.csproj
+        working-directory: TestProject1.csproj
